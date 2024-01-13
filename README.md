@@ -35,12 +35,12 @@
 ## Payment Card Details
 1. Payment card details for payment:
     
-    Card - Visa 
-    Type - Domestic 
-    Number - 4111 1111 1111 1111
-    CVV - 123
-    Exp - 12/30
-    OTP - 1234
+-    Card - Visa 
+-    Type - Domestic 
+-    Number - 4111 1111 1111 1111
+-    CVV - 123
+-    Exp - 12/30
+-    OTP - 1234
  
 
 
