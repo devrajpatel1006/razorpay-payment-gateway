@@ -1,0 +1,23 @@
+version: "3.8" #We specify a version for Compose. Make sure Compose is compatible with Docker
+ services:
+   client: #Define the client service so we can run it in an isolated environment.
+     stdin_open: true
+     restart: always
+     build:
+       context: ./frontend
+       dockerfile: Dockerfile #The client service requires a docker file to be specified. For development, we’re going to use the Dockerfile.dev file.
+     ports:
+       - "3000:3000" #Next, we map the port 3000 to Docker. The React application runs on port 3000, so we need to tell Docker which port to expose for our application.
+     volumes:
+       - "/app/node_modules"
+       - "./frontend:/app"
+   app:
+      build: ./backend
+      command: npm run dev
+      restart: always
+      ports:
+        - "8080:8080"
+      volumes:
+      - ./backend:/usr/app/
+      - /usr/app/node_modules
+      
