@@ -27,7 +27,10 @@
  
  ![Payment Initial Screen](https://github.com/devrajpatel1006/razorpay-payment-gateway/blob/main/paymentInitial.png)
 
- 
+ ![Payment Sucess Screen](https://github.com/devrajpatel1006/razorpay-payment-gateway/blob/main/paymentSucces.png)
+
+ ![Payment Sucess Popup Screen](https://github.com/devrajpatel1006/razorpay-payment-gateway/blob/main/paymentSuccesPopup.png)
+
 
 
 
