@@ -7,6 +7,7 @@
 - [Installation](#installation)
 - [Setup](#setup)
 - [Payment](#Payment)
+- [Payment Card](#PaymentCard)
 
 ## Installation
 
@@ -31,6 +32,16 @@
 
  ![Payment Sucess Popup Screen](https://github.com/devrajpatel1006/razorpay-payment-gateway/blob/main/paymentSuccesPopup.png)
 
+## Payment Card Details
+1. Payment card details for payment:
+    
+    Card - Visa 
+    Type - Domestic 
+    Number - 4111 1111 1111 1111
+    CVV - 123
+    Exp - 12/30
+    OTP - 1234
+ 
 
 
 
