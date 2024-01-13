@@ -1,0 +1,201 @@
+.delPickupBox {
+  display: flex;
+  height: 190px;
+  width: 360px;
+  margin: 14px 0px;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 20px;
+  -webkit-box-shadow: -1px 6px 14px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: -1px 6px 14px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: -1px 6px 14px 0px rgba(0, 0, 0, 0.5);
+}
+
+.otherDetails {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3px;
+  width: 100%;
+}
+
+.delivery,
+.pu {
+  border-radius: 10px;
+}
+
+.delivery {
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+
+.delpubox {
+  border-radius: 10px;
+  width: 200px;
+  padding: 5px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e5e5e5;
+}
+
+.otherDetails2 {
+  font-weight: bold;
+}
+
+.otherDetails {
+  color: rgb(32, 30, 30);
+}
+
+/* OrderList component css start here */
+.OrderListParent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    margin-top: 10px;
+  }
+  
+  .heading {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 4px;
+    align-items: center;
+    /* background-color: green; */
+    width: 100%;
+    font-weight: bold;
+  }
+  
+  .heading :nth-child(2) {
+    color: red;
+  }
+  
+  .dish {
+    border-bottom: 1px solid rgb(167, 164, 164);
+    /* margin: 5px; */
+    display: grid;
+    grid-template-columns: 65% auto;
+    padding: 10px 0px;
+  }
+  
+  .dish .ingred {
+    color: gray;
+    /* font-size: 17px; */
+  }
+  
+  .b1 {
+    align-items: start;
+    display: flex;
+    gap: 1px;
+    text-align: start;
+  }
+  
+  .b2 {
+    text-align: end;
+  }
+  
+  .dish .id {
+    background-color: red;
+    border-radius: 4px;
+    color: white;
+    padding: 0px 6px;
+  }
+  
+  /* Summary part css start here*/
+  .summary_Cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px;
+  }
+  
+  .totalContList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .totalContListItem {
+    border-bottom: 1px solid rgb(167, 164, 164);
+    padding: 7px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .totalContListItem h3 {
+    font-weight: lighter;
+  }
+  
+  .totalContListItemTotal {
+    border: none !important;
+  }
+  
+  .totalContListItemTotal h3 {
+    font-weight: bolder !important;
+    color: #424242;
+  }
+  
+  .totalContListItem :nth-child(1),
+  .totalContListItemTotal:nth-child(1) {
+    text-align: start;
+    width: 50%;
+  }
+  
+  .totalContListItem :nth-child(2),
+  .totalContListItemTotal:nth-child(2) {
+    width: 50%;
+    text-align: end;
+  }
+  
+  .summary {
+    width: 100%;
+    text-align: start;
+    margin: 14px 0px;
+  }
+  
+  .summary > h2 {
+    border-bottom: 5px solid red;
+    width: 12%;
+  }
+  
+  .placeOrderBtn {
+    width: 100%;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 12px 0px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .discount :nth-child(2) {
+    color: #5a8cd7;
+  }
+  
+  /* OrderList component css ends here */
+  .backButton {
+    width: 102px;
+    height: 25px;
+    top: 84px;
+    left: 670px;
+    background: #c4c4c4;
+    cursor: pointer;
+    font-family: Mulish;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: -0.07999999821186066px;
+    text-align: center;
+  }
+  
