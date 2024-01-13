@@ -1,5 +1,5 @@
 import './App.css'
-import { OrderList } from './components/OrderList'
+import { OrderList } from './components/OrderList/OrderList'
 
 function App() {
 

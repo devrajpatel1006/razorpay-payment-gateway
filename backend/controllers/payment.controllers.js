@@ -24,8 +24,8 @@ const createOrder = async (req, res) => {
       res.status(200).json({ data: order });
     });
   } catch (error) {
-    res.status(500).json({ message: "Internal Server Error!" });
     console.log(error);
+    return res.status(500).json({ message: "Internal Server Error!" });
   }
 };
 
@@ -45,8 +45,8 @@ const verifyPayment = async (req, res) => {
       return res.status(400).json({ message: "Invalid signature sent!" });
     }
   } catch (error) {
-    res.status(500).json({ message: "Internal Server Error!" });
     console.log(error);
+   return res.status(500).json({ message: "Internal Server Error!" });
   }
 };
 

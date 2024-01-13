@@ -18,7 +18,7 @@
 
 ## Setup
 
-1. Please refer backend and frontend README.md file for setup.
+## 1. Please refer backend and frontend README.md file for setup.
  
 
 ## Payment
