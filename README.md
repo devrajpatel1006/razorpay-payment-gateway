@@ -19,7 +19,9 @@
 
 ## Setup
 
-## 1. Please refer backend and frontend README.md file for setup.
+## Option 1. Please refer backend and frontend README.md file for individual setup without docker .
+
+## Option 2. Run `docker-compose up` for running both frontend and backend inside docker as containers
  
 
 ## Payment
